@@ -1,0 +1,127 @@
+html {
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  *zoom: 1;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	line-height: 1.4;
+	padding: 0;
+	margin: 22px 0 0;
+}
+
+@media screen and (max-width: 30em) {
+	body {
+		margin-top: 0;	
+	}
+}
+
+h1 {
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, pre, img, table, 
+form, input, textarea, button {
+	margin-top: 0;
+	margin-bottom: 22px;
+}
+
+a, 
+a:visited {
+	color: #d5353d;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	background: #d5353d;
+	color: #fff;
+}
+
+.island {
+	max-width: 30rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 22px 22px 1px;
+}
+
+.content-brand {
+	background: #d5353d;
+	color: #fff;
+}
+
+.content-main {
+	background: #fafafa;
+}
+
+.content-sec {
+	background: #f5f5f5;
+}
+
+.content-footer {
+	background: #f1f1f1;
+}
+
+.header h1 {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+::selection {
+  background: #f2c2c4;
+}
+
+input, 
+textarea {
+	display: block;
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+label {
+	display: block;
+}
+
+.btn {
+	padding: 6px 8px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-positive {
+	background: #fff;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}

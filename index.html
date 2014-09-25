@@ -14,80 +14,7 @@
 	<title>LBRL.org</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700' rel='stylesheet' type='text/css'>
-
-	<style>
-		html {
-			-webkit-box-sizing: border-box; 
-			-moz-box-sizing: border-box; 
-			box-sizing: border-box;
-		}
-
-		*, *:before, *:after {
-			box-sizing: inherit;
-		}
-
-		body {
-			font-size: 16px;
-			font-family: 'Josefin Sans', sans-serif;
-			font-weight: 300;
-			line-height: 1.4;
-			padding: 0;
-			margin: 22px 0 0;
-		}
-		
-		@media screen and (max-width: 30em) {
-			body {
-				margin-top: 0;	
-			}
-		}
-
-		h1 {
-			font-weight: 300;
-		}
-
-		h1, h2, h3, h4, h5, h6,
-		p, ul, ol, pre, img, table {
-			margin-top: 0;
-			margin-bottom: 22px;
-		}
-
-		a, 
-		a:visited {
-			color: #d5353d;
-			text-decoration: none;
-		}
-		
-		a:hover,
-		a:active {
-			background: #d5353d;
-			color: #fff;
-		}
-
-		.island {
-			max-width: 30rem;
-			margin-left: auto;
-			margin-right: auto;
-			padding: 22px 22px 1px;
-		}
-		
-		.content-brand {
-			background: #d5353d;
-			color: #fff;
-		}
-
-		.content-main {
-			background: #fafafa;
-		}
-
-		.content-footer {
-			background: #f5f5f5;
-		}
-
-		.header h1 {
-			margin-bottom: 15px;
-			text-align: center;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
 	<div class="island content-brand header">
@@ -97,12 +24,31 @@
 		<p>LBRL er et enkeltpersonsforetak som ble startet sent i 2012, som tilbyr tjenester som webutvikling, webdesign og generelle IT tjenester. Firmaet drives av Ruben Leikarnes som for tiden tar en bachelorgrad i IT med spesialisering i E-business ved <a href="http://nith.no">Westerdals - Oslo School of Art, Communication and Technology</a> (tidligere NITH).</p>
 
 		<p>Vi har over 10 års erfaring innen frontend-utvikling og spesialiserer oss på CSS effektivitet og arktitektur (vi foretrekker SASS). I tillegg har vi erfaring med systemer som Wordpress, Joomla, Jekyll og Middleman.</p>
-
+	</div>
+	<div class="island content-sec">
 		<ul>
 			<li><a href="mailto:support@lbrl.org">Send oss epost</a></li>
 			<li><a href="http://no.linkedin.com/in/rubenleikarnes">Linkedin profil</a></li>
 			<li><a href="http://twitter.com/@rubix">Følg Ruben på Twitter</a></li>
 		</ul>
+	</div>
+	<div class="island content-main clearfix">
+		<form method="POST" action="http://forms.brace.io/support@lbrl.org">
+
+			<label for="senderName">Navn</label>
+			<input name="name" type="name" id="senderName" placeholder="Ola Nordmann">
+
+			<label for="senderEmail">E-post adresse</label>
+			<input name="_replyto" type="email" id="senderEmail" placeholder="ola.nordmann@epost.no">
+
+			<label for="senderContent">Forespørsel</label>
+			<textarea name="message" rows="5" id="senderContent"></textarea>    
+
+			<input type="hidden" name="_subject" value="LBLR oppdrag" />
+			<input type="hidden" name="_next" value="/thanks.html" />
+
+			<button type="submit" class="btn btn-positive pull-right">Send</button>
+		</form>
 	</div>
 	<div class="island content-footer">
 		<p>Ruben Leikarnes</p>
