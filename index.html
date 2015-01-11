@@ -27,7 +27,7 @@
 	<div class="island content-sec clearfix">
 		<h2>Send en melding</h2>
 
-		<form method="POST" action="http://forms.brace.io/support@lbrl.org">
+		<form method="POST" action="http://formspree.io/support@lbrl.org">
 
 			<label for="senderName">Navn</label>
 			<input name="name" type="name" id="senderName" placeholder="Ola Nordmann" required>
@@ -40,6 +40,7 @@
 
 			<input type="hidden" name="_subject" value="LBLR oppdrag" />
 			<input type="hidden" name="_next" value="http://lbrl.org/thanks.html" />
+			<input type="text" name="_gotcha" style="display:none" />
 
 			<button type="submit" class="btn btn-positive pull-right">Send</button>
 		</form>
