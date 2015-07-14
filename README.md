@@ -1,6 +1,6 @@
-home
+lbrl.org
 ==============
 
 Website
 
-- [Contact form](http://forms.brace.io/)
+- [Contact form from formspree.io](http://formspree.io/)
