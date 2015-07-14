@@ -1,2 +1,10 @@
 language: ruby
+rvm:
+- 2.1
+# Assume bundler is being used, install step will run `bundle install`.
 script: "bundle exec jekyll build"
+
+# branch whitelist
+branches:
+  only:
+  - gh-pages     # test the gh-pages branch
