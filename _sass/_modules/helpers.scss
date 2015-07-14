@@ -1,0 +1,36 @@
+::selection {
+  background: #f2c2c4;
+}
+
+input,
+textarea {
+	display: block;
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	font-family: $brand-fonts;
+}
+
+label {
+	display: block;
+}
+
+.btn {
+	padding: 6px 8px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-family: $brand-fonts;
+}
+
+.btn-positive {
+	background: #fff;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}

@@ -1,0 +1,22 @@
+h1 {
+	font-size: 42px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: 400;
+}
+
+
+a,
+a:visited {
+	color: #d5353d;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: $black;
+	border-bottom: 0.1em solid $brand-color;
+}
