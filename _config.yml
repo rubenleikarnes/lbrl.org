@@ -12,3 +12,4 @@ github_username:  rub1
 
 # Build settings
 markdown: kramdown
+exclude: [vendor]

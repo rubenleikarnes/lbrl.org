@@ -8,3 +8,4 @@ script: "bundle exec jekyll build"
 branches:
   only:
   - gh-pages     # test the gh-pages branch
+
