@@ -12,4 +12,8 @@ github_username:  rub1
 
 # Build settings
 markdown: kramdown
-exclude: [vendor]
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

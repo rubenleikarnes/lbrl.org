@@ -25,6 +25,10 @@ label {
 
 .btn-positive {
 	background: #fff;
+
+	&:hover {
+		background: $grey-3;
+	}
 }
 
 .pull-right {
