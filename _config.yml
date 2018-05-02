@@ -12,7 +12,7 @@ github_username:  rub1
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
