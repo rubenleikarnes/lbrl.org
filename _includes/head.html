@@ -9,6 +9,11 @@
 
 	<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-	<link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	<style type="text/css">
+		{% capture include_to_scssify %}
+			{% include critical.scss %}
+		{% endcapture %}
+		{{ include_to_scssify | scssify }}
+	</style>
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
