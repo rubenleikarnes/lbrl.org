@@ -1,4 +1,4 @@
-lbrl.org
+lbrl.no
 ==============
 
 Website
